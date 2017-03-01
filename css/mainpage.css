@@ -1,0 +1,224 @@
+/*------------------------------CONTENT-----------------------------------*/
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-image: url("../img/Slidebanner/banner_assasins_creed_2.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*---------------------------------NAV------------------------------------*/
+
+.mainnav {
+	background-color: rgba(20, 20, 20, 0.6);
+	margin: 0px auto;
+	width: 100%;
+}
+.mainnav>div {
+	justify-content: space-around
+}
+.mainnav>div>div {
+	padding: 15px;
+	color: #fff;
+}
+.mainnav>div>div:hover {
+	color: #111;
+	background-color: #0cd9f5;
+}
+.mainnav a {
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.mainnav a:hover {
+	background-color: inherit;
+	background-color: #0cd9f5;
+}
+#navActive {
+	color: #111;
+	background-color: #0cd9f5;
+}
+
+/*---------------------------------BANNER------------------------------------*/
+
+.headerBanner {
+	max-width: 1074px;
+	margin: 0px auto;
+	position: relative;
+	min-height: 600px;
+}
+.headerBanner div {
+	top: -50px;
+	right: 80px;
+	bottom: 20px;
+	position: absolute;
+	background-color: rgba(20, 20, 20, 0.6);
+	min-height: 600px;
+	width: 200px;
+}
+.headerBanner h1 {
+	margin: 400px 20px 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+}
+.headerBanner p {
+	color: #fff;
+	margin: 5px 20px;
+}
+.headerBanner img {
+	margin-left: 20px;
+	width: 30px;
+}
+
+/*-------------------------------MAIN CONTENT--------------------------------*/
+
+main {
+	background: #fff;
+}
+.topBlock {
+	background-color: #111;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+.topBlock p:before {
+	content: url(../img/Grafik/icon_titlebar.png);
+}
+.topBlock p {
+	padding-left: 10px;
+	font-size: 26px;
+	line-height: 1.8;
+	color: #0cd9f5;
+	margin-top: 5px;
+}
+.readMore {
+	margin-top: 10px;
+	display: inline-block;
+	background-color: #0cd9f5;
+	padding: 8px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-size: 14px;
+}
+.readMore:hover {
+	background-color: cyan;
+	text-decoration: underline;
+}
+
+/*---LINE ONE---*/
+
+.lineOne {
+	padding-top: 30px;
+}
+.lineOne img {
+	width: 150px;
+}
+.lineOne>div {
+	position: relative;
+}
+.lineOne>div p {
+	position: absolute;
+	bottom: 2px;
+	color: #0cd9f5;
+	background-color: rgba(30, 30, 30, 0.9);
+	width: 100%;
+	text-align: center;
+	line-height: 1.6;
+	font-size: 14px;
+}
+.lineOne a {
+	color: inherit;
+	width: 100%;
+	height: 100%;
+}
+
+/*---LINE TWO---*/
+
+.latestTrailer p:nth-child(n+2) {
+	line-height: 1.4;
+}
+.latestTrailer h2 {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 15px 0;
+}
+.lineTwo>div:first-child {
+	width: 65%;
+}
+.lineTwo>div:last-child {
+	width: 32%;
+}
+.popuSpil img {
+	width: 80px;
+	float: left;
+}
+.popuSpil>div:nth-child(n+2) {
+	clear: both;
+	padding: 10px;
+	height: 80px;
+}
+.popuSpil>div:nth-child(odd) {
+	background-color: #eeeeee
+}
+.popuSpil>div:nth-child(1) {
+	background-color: #111
+}
+.popuSpil>div:nth-child(n+2) p {
+	margin-left: 90px
+}
+.popuSpil div p:nth-child(2) {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.popuSpil div p:nth-child(n+3) {
+	font-size: 13px;
+	line-height: 1.2;
+}
+
+/*---LINE THREE---*/
+
+.lineThree>div {
+	width: 32%;
+	margin-bottom: 40px;
+}
+.lineThree img {
+	width: 100%;
+}
+.lineThree h3 {
+	font-size: 26px;
+	font-weight: bold;
+	margin: 9px 0
+}
+.lineThree p:nth-child(4){
+    line-height: 1.4;
+}
+
+/*---------------------------------FOOTER------------------------------------*/
+
+footer {
+	height: 70px;
+	margin-top: 30px;
+	background-color: #dddddd;
+	border-radius: 5px;
+}
+footer .row {
+	margin-top: 40px;
+	justify-content: space-around;
+	padding-top: 30px;
+	width: 600px;
+	margin: 0px auto;
+}
+footer .row>div {
+	border: 1px solid #999;
+}
+footer span {
+	color: #999;
+}
