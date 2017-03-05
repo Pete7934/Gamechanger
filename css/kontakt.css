@@ -1,4 +1,7 @@
 /*-------------------------------INPUT OMRÅDE--------------------------------*/
+.maindiv{
+    padding-top: 20px;
+}
 .maindiv>p{
     margin-bottom: 10px;
 }

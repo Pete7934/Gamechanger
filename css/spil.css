@@ -1,0 +1,35 @@
+.mainContentBox img{
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+}
+.mainContentBox>div{
+    margin-bottom: 20px;
+}
+.mainContentBox>div:nth-child(even){
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+.mainContentBox h1{
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.mainContentBox date{
+    font-size: 13px;
+}
+.mainContentBox date div{
+    display: inline;
+    border: 1px solid;
+    height: 30%;
+}
+.mainContentBox p{
+    margin-top: 10px;
+    line-height: 1.2;
+}
+.mainContentBox .row{
+    justify-content: flex-start
+}
+.mainContentBox a{
+    color: #000;
+}

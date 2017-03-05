@@ -67,21 +67,76 @@ html {
     height: 70px;
     position: relative;
 }
+
 .topBlock{
     position: absolute;
     bottom: 0px;
     background-color: #222;
-    width: 990px;
+    width: 690px;
     padding: 16px;
 }
-.topBlock p{
+.topBlockSm{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #222;
+    width: 240px;
+    padding: 16px;
+}
+.topBlock.kontakt{
+    width: 990px;
+}
+
+.topBlock p , .topBlockSm{
     color: #0cd9f5;
     font-size: 26px;
     padding-left: 
 }
-.topBlock p:before{
+.topBlock p:before , .topBlockSm p:before{
     content: url(../img/Grafik/icon_titlebar.png);
 }
+/*------------------------FÆLLES FOR SPIL OG ANMELDELSER---------------------*/
+
+/*---Div og Page Layout---*/
+.wrapper.md{
+    margin-top: 0px;
+}
+.mainContentBox{
+    width: 722px;
+    margin-top: 20px;
+}
+.spilAnmeld{
+    width: 272px;
+    margin-top: 0px;
+}
+
+/*---Link Liste Til Højre---*/
+.spilAnmeld img{
+	width: 50px;
+	float: left;
+}
+.spilAnmeld>div {
+	clear: both;
+	padding: 10px;
+	height: 50px;
+}
+.spilAnmeld>div:nth-child(even) {
+	background-color: #eee
+}
+
+.spilAnmeld>div p {
+	margin-left: 60px
+}
+.spilAnmeld div p:nth-child(2) {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.spilAnmeld div p:nth-child(n+3) {
+	font-size: 13px;
+	line-height: 1.2;
+}
+
 
 /*---------------------------------FOOTER------------------------------------*/
 
